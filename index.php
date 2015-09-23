@@ -11,8 +11,10 @@
 </head>
 <body>
     <div class="goods">
+            <h1>XKCD Password Generator</h1> 
         <div class="output">
-            ,<h2><?php echo htmlspecialchars($password);?></h2>
+            <h1>Generated Password:</h1>
+            <h2><?php echo htmlspecialchars($password);?></h2>
         </div>
         <div class="forms">
             <form action="index.php" method="get">
