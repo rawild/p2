@@ -1,7 +1,4 @@
-<?php
-    error_reporting(E_ALL);  
-    ini_set('display_errors', 1); 
-?>
+
 
 <!DOCTYPE html>
 
@@ -22,7 +19,7 @@
                 <h3>Get Another Password</h3>
                 Number of Words (2-7):
                 <br>
-                <input type="number" name="WordNumber" min="2" max="7" value="2" autofocus required>
+                <input type="number" name="WordNumber" min="2" max="7" value="4" autofocus required>
                 <br>
                 <input type="checkbox" name="WithNumber" value="Number">                Include a Number
                 <br>    
@@ -30,6 +27,11 @@
                 <br>
                 <input type="submit" name="Submit" value="Password Please">
             </form>
+           
+        </div>
+        <div class="explanation">
+        <h3>A brief explanation:</h3>
+        <img src="images/password_strength.png" alt="XKCD Comic on Password Strength"/>
         </div>
     </div>
 </body>
